@@ -15,7 +15,12 @@ export default function TabLayout() {
 
       <NativeTabs.Trigger name="explore">
         <Label>{t("tabs.explore")}</Label>
-        <Icon sf={{ default: "magnifyingglass", selected: "magnifyingglass.circle.fill" }} />
+        <Icon
+          sf={{
+            default: "magnifyingglass",
+            selected: "magnifyingglass.circle.fill",
+          }}
+        />
       </NativeTabs.Trigger>
 
       <NativeTabs.Trigger name="profile">

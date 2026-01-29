@@ -1,8 +1,0 @@
-node_modules/
-.expo/
-dist/
-build/
-*.lock
-tsconfig.json
-expo-env.d.ts
-nativewind-env.d.ts
