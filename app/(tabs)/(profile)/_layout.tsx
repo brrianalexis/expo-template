@@ -8,6 +8,7 @@ export default function ProfileLayout() {
   return (
     <Stack>
       <Stack.Screen name="index" options={{ title: t("tabs.profile"), headerLargeTitle: true }} />
+      <Stack.Screen name="edit-username" options={{ title: "Edit Username" }} />
     </Stack>
   );
 }
